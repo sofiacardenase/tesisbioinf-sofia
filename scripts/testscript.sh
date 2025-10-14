@@ -7,9 +7,9 @@
 # Está diseñado para trabajar con secuencias simuladas o reales
 # de linfocitos B (archivo FASTA de entrada), realizando los pasos:
 #
-#   1️⃣ Asignación de genes V(D)J mediante IgBLAST.
-#   2️⃣ Construcción de la base de datos de alineamientos con MakeDb.
-#   3️⃣ Definición y agrupamiento de clones con DefineClones.
+#   1️ Asignación de genes V(D)J mediante IgBLAST.
+#   2️ Construcción de la base de datos de alineamientos con MakeDb.
+#   3️ Definición y agrupamiento de clones con DefineClones.
 
 # Estructura del proyecto: gitsofia/tesisbioinf-sofia/...
 #Descargar base de datos Immcantation carpeta share, descargar igblast
@@ -18,39 +18,39 @@
 
 set -e  # Detener el script si ocurre algún error
 
-echo "🚀 Iniciando pipeline Immcantation..."
+echo " Iniciando pipeline Immcantation..."
 
-# 1️⃣ Detectar carpeta raíz del proyecto
+# 1️ Detectar carpeta raíz del proyecto
 BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/.."
 
-# 2️⃣ Definir carpetas de entrada, salida y recursos
+# 2️ Definir carpetas de entrada, salida y recursos
 INPUT_DIR="$BASE_DIR/data/input"
 OUTPUT_DIR="$BASE_DIR/data/output"
 SHARE_DIR="$BASE_DIR/share"
 GERMLINE_DIR="$SHARE_DIR/germlines/imgt/human/vdj"
 
-# 3️⃣ Crear carpeta de salida si no existe
+# 3 Crear carpeta de salida si no existe
 #mkdir -p "$OUTPUT_DIR"
 #Instalar Change-O si no está
 #if ! command -v AssignGenes.py &> /dev/null; then
 #  echo "📦 Change-O no encontrado, instalando vía mamba..."
 # mamba install -c bioconda changeo -y
 
-# 4️⃣ Archivos de entrada y salida
+# 4️ Archivos de entrada y salida
 INPUT_FASTA="$INPUT_DIR/repertorio_A_insilico_10_seqs.fasta"
 FMT7_OUT="$OUTPUT_DIR/repertorio_A_insilico_10_seqs_igblast.fmt7"
 DB_OUT="$OUTPUT_DIR/repertorio_A_insilico_10_seqs_db-pass.tsv"
 CLONE_OUT="$OUTPUT_DIR/repertorio_A_insilico_10_seqs_clone-pass.tsv"
 
-# 5️⃣ Verificar que el archivo FASTA exista
+# 5️ Verificar que el archivo FASTA exista
 if [ ! -f "$INPUT_FASTA" ]; then
-  echo "❌ ERROR: No se encontró el archivo de entrada: $INPUT_FASTA"
+  echo " ERROR: No se encontró el archivo de entrada: $INPUT_FASTA"
   exit 1
 fi
-echo "✅ Archivo de entrada detectado: $INPUT_FASTA"
+echo " Archivo de entrada detectado: $INPUT_FASTA"
 
-# 6️⃣ Asignación de genes con IgBLAST
-echo "🔹 Ejecutando AssignGenes.py..."
+# 6️ Asignación de genes con IgBLAST
+echo " Ejecutando AssignGenes.py..."
 AssignGenes.py igblast \
   -s "$INPUT_FASTA" \
   -b "$SHARE_DIR/igblast" \
@@ -59,12 +59,12 @@ AssignGenes.py igblast \
 
 # Verificar que el archivo .fmt7 se creó correctamente
 if [ ! -s "$FMT7_OUT" ]; then
-  echo "❌ ERROR: AssignGenes.py no generó el archivo .fmt7"
+  echo " ERROR: AssignGenes.py no generó el archivo .fmt7"
   exit 1
 fi
-echo "✅ AssignGenes.py completado: $FMT7_OUT"
+echo " AssignGenes.py completado: $FMT7_OUT"
 
-# 7️⃣ Creación de la base de datos de alineamientos con MakeDb
+# 7️ Creación de la base de datos de alineamientos con MakeDb
 echo "🔹 Ejecutando MakeDb.py..."
 MakeDb.py igblast \
   -i "$FMT7_OUT" \
@@ -77,13 +77,13 @@ MakeDb.py igblast \
 
 # Verificar que el archivo _db-pass.tsv se creó correctamente
 if [ ! -s "$DB_OUT" ]; then
-  echo "❌ ERROR: MakeDb.py no generó el archivo _db-pass.tsv. Revisa el contenido de $FMT7_OUT"
+  echo " ERROR: MakeDb.py no generó el archivo _db-pass.tsv. Revisa el contenido de $FMT7_OUT"
   exit 1
 fi
-echo "✅ MakeDb.py completado: $DB_OUT"
+echo " MakeDb.py completado: $DB_OUT"
 
-# 8️⃣ Agrupamiento de clones con DefineClones
-echo "🔹 Ejecutando DefineClones.py..."
+# 8️ Agrupamiento de clones con DefineClones
+echo " Ejecutando DefineClones.py..."
 DefineClones.py \
   -d "$DB_OUT" \
   --act set --model ham --norm len --dist 0.16 \
@@ -91,13 +91,13 @@ DefineClones.py \
 
 # Verificar que el archivo _clone-pass.tsv se creó correctamente
 if [ ! -s "$CLONE_OUT" ]; then
-  echo "❌ ERROR: DefineClones.py no generó el archivo _clone-pass.tsv"
+  echo " ERROR: DefineClones.py no generó el archivo _clone-pass.tsv"
   exit 1
 fi
 
 # ✅ Finalización
-echo "🎯 Pipeline completado correctamente."
-echo "📂 Archivos generados:"
+echo " Pipeline completado correctamente."
+echo " Archivos generados:"
 echo "   - IgBLAST output:    $FMT7_OUT"
 echo "   - Base de datos:     $DB_OUT"
 echo "   - Clones definidos:  $CLONE_OUT"
