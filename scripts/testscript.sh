@@ -3,7 +3,7 @@
 # Pipeline Immcantation con rutas relativas
 # Descripción general:
 # Este script ejecuta un flujo completo de análisis del repertorio
-# inmunológico utilizando el framework Immcantation. 
+# inmunológico utilizando el framework Immcantation, incluyendo el paquete Change-O. 
 # Está diseñado para trabajar con secuencias simuladas o reales
 # de linfocitos B (archivo FASTA de entrada), realizando los pasos:
 #
@@ -12,9 +12,9 @@
 #   3️ Definición y agrupamiento de clones con DefineClones.
 
 # Estructura del proyecto: gitsofia/tesisbioinf-sofia/...
-#Descargar base de datos Immcantation carpeta share, descargar igblast
-#Construir la base de datos de IgBLAST a partir de las secuencias de referencia de IMGT
-#Generar secuencias simuladas en R sea partir de codigoimmunesimR y comenzar los analisis de alineamiento, clustering y métricas.
+# Descargar base de datos Immcantation carpeta share, descargar igblast
+# Construir la base de datos de IgBLAST a partir de las secuencias de referencia de IMGT
+# Generar secuencias simuladas en R sea partir de codigoimmunesimR y comenzar los analisis de alineamiento, clustering y métricas.
 
 set -e  # Detener el script si ocurre algún error
 
@@ -33,7 +33,7 @@ GERMLINE_DIR="$SHARE_DIR/germlines/imgt/human/vdj"
 #mkdir -p "$OUTPUT_DIR"
 #Instalar Change-O si no está
 #if ! command -v AssignGenes.py &> /dev/null; then
-#  echo "📦 Change-O no encontrado, instalando vía mamba..."
+#  echo "Change-O no encontrado, instalando vía mamba..."
 # mamba install -c bioconda changeo -y
 
 # 4️ Archivos de entrada y salida
@@ -65,7 +65,7 @@ fi
 echo " AssignGenes.py completado: $FMT7_OUT"
 
 # 7️ Creación de la base de datos de alineamientos con MakeDb
-echo "🔹 Ejecutando MakeDb.py..."
+echo " Ejecutando MakeDb.py..."
 MakeDb.py igblast \
   -i "$FMT7_OUT" \
   -s "$INPUT_FASTA" \
@@ -95,7 +95,7 @@ if [ ! -s "$CLONE_OUT" ]; then
   exit 1
 fi
 
-# ✅ Finalización
+#  Finalización
 echo " Pipeline completado correctamente."
 echo " Archivos generados:"
 echo "   - IgBLAST output:    $FMT7_OUT"
