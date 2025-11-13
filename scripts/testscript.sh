@@ -82,7 +82,7 @@ if [ ! -s "$DB_OUT" ]; then
 fi
 echo " MakeDb.py completado: $DB_OUT"
 
-# 8️ Agrupamiento de clones con DefineClones
+# 8️ Agrupamiento de clones con DefineClones 
 echo " Ejecutando DefineClones.py..."
 DefineClones.py \
   -d "$DB_OUT" \
