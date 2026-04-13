@@ -37,10 +37,10 @@ GERMLINE_DIR="$SHARE_DIR/germlines/imgt/human/vdj"
 # mamba install -c bioconda changeo -y
 
 # 4️ Archivos de entrada y salida
-INPUT_FASTA="$INPUT_DIR/repertorio_C_insilico_1000_seqs.fasta"
-FMT7_OUT="$OUTPUT_DIR/repertorio_C_insilico_1000_seqs_igblast.fmt7"
-DB_OUT="$OUTPUT_DIR/repertorio_C_insilico_1000_seqs_db-pass.tsv"
-CLONE_OUT="$OUTPUT_DIR/repertorio_C_insilico_1000_seqs_clone-pass.tsv"
+INPUT_FASTA="$INPUT_DIR/repertorio_E_insilico_1000_seqs.fasta"
+FMT7_OUT="$OUTPUT_DIR/repertorio_E_insilico_1000_seqs_igblast.fmt7"
+DB_OUT="$OUTPUT_DIR/repertorio_E_insilico_1000_seqs_db-pass.tsv"
+CLONE_OUT="$OUTPUT_DIR/repertorio_E_insilico_1000_seqs_clone-pass.tsv"
 
 # 5️ Verificar que el archivo FASTA exista
 if [ ! -f "$INPUT_FASTA" ]; then
