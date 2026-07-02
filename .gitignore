@@ -1,4 +1,5 @@
 
+
 # ---- Logs and temporary files ----
 *.log
 *.tmp
@@ -24,3 +25,6 @@ Thumbs.db
 renv/library/
 
 data/
+
+# ---- immuneSIM outputs ----
+results/immunesim_ground_truth/
