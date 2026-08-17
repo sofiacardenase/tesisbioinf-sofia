@@ -37,10 +37,10 @@ GERMLINE_DIR="$SHARE_DIR/germlines/imgt/human/vdj"
 # mamba install -c bioconda changeo -y
 
 # 4️ Archivos de entrada y salida
-INPUT_FASTA="$INPUT_DIR/repertorio_D_insilico_shm80_102400_seqs.fasta"
-FMT7_OUT="$OUTPUT_DIR/repertorio_D_insilico_shm80_102400_seqs_igblast.fmt7"
-DB_OUT="$OUTPUT_DIR/repertorio_D_insilico_shm80_102400_seqs_db-pass.tsv"
-CLONE_OUT="$OUTPUT_DIR/repertorio_D_insilico_shm80_102400_seqs_clone-pass.tsv"
+INPUT_FASTA="$INPUT_DIR/repertorio_D_insilico_shm80_3200_seqs.fasta"
+FMT7_OUT="$OUTPUT_DIR/repertorio_D_insilico_shm80_3200_seqs_igblast.fmt7"
+DB_OUT="$OUTPUT_DIR/repertorio_D_insilico_shm80_3200_seqs_db-pass.tsv"
+CLONE_OUT="$OUTPUT_DIR/repertorio_D_insilico_shm80_3200_seqs_clone-pass.tsv"
 
 # 5️ Verificar que el archivo FASTA exista
 if [ ! -f "$INPUT_FASTA" ]; then
@@ -86,7 +86,7 @@ echo " MakeDb.py completado: $DB_OUT"
 echo " Ejecutando DefineClones.py..."
 DefineClones.py \
   -d "$DB_OUT" \
-  --act set --model ham --norm len --dist 0.16 \
+  --act set --model ham --norm len --dist 0.13 \
   -o "$CLONE_OUT"
 
 # Verificar que el archivo _clone-pass.tsv se creó correctamente
