@@ -112,16 +112,19 @@ Los archivos de entrada, parámetros de simulación y resultados generados se en
 - [x] Simulación de los repertorios mediante immuneSIM.
 - [x] Procesamiento y anotación de las secuencias.
 - [x] Agrupamiento clonal mediante Change-O.
-- [x] Cálculo de métricas de diversidad.
+- [x] Cálculo de métricas de diversidad para immuneSIM ground truth y clustering Change-o.
 - [x] Desarrollo de los análisis de targeting de SHM.
 - [x] Desarrollo de figuras y tablas preliminares.
 
+
 ### En desarrollo
 
-- [ ] Finalización de las simulaciones a 102.400 secuencias.
+
 - [ ] Evaluación del problema de targeting en el escenario D (folicular).
+- [ ] Análisis de mutaciones genelares de SHM.
 - [ ] Análisis del baseline de SHM.
 - [ ] Análisis de expansión clonal.
 - [ ] Definición de la estrategia final para la comparación entre escenarios.
+- [ ] Análisis con datos reales
 - [ ] Selección y ajuste de las figuras finales.
 - [ ] Revisión y consolidación de los resultados para la tesis.
