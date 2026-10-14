@@ -55,7 +55,7 @@ Se analizaron las relaciones entre métricas para explorar sus asociaciones y co
 
 ## Estructura del repositorio
 
-```text
+
 tesisbioinf-sofia/
 ├── notebooks/
 │   ├── 1-simulation_immunesimR_A.ipynb
