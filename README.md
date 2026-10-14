@@ -55,7 +55,7 @@ Se analizaron las relaciones entre métricas para explorar sus asociaciones y co
 
 ## Estructura del repositorio
 
-
+```text
 tesisbioinf-sofia/
 ├── notebooks/
 │   ├── 1-simulation_immunesimR_A.ipynb
@@ -86,7 +86,7 @@ tesisbioinf-sofia/
 ├── Tabla parametros escenarios.xlsx
 ├── README.md
 └── .gitignore
-
+```
 
 ## Tecnologías y herramientas
 
@@ -104,13 +104,16 @@ El proyecto utiliza `renv` para registrar las dependencias de R. El archivo `ren
 
 Para restaurar las dependencias en un entorno compatible, abre R desde el directorio del proyecto y ejecuta:
 
-
+```r
 install.packages("renv")
 renv::restore()
-
+```
 
 Algunos pasos del análisis pueden requerir herramientas externas, como IgBLAST, y que las rutas y dependencias correspondientes estén configuradas correctamente.
 
 ## Objetivo general
 
 Evaluar cómo los escenarios biológicos simulados, la profundidad de secuenciación y la estrategia de asignación clonal influyen en las métricas utilizadas para caracterizar repertorios BCR, considerando la diversidad, la expansión clonal y la hipermutación somática.
+
+
+
