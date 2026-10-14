@@ -104,10 +104,10 @@ El proyecto utiliza `renv` para registrar las dependencias de R. El archivo `ren
 
 Para restaurar las dependencias en un entorno compatible, abre R desde el directorio del proyecto y ejecuta:
 
-```r
+
 install.packages("renv")
 renv::restore()
-```
+
 
 Algunos pasos del análisis pueden requerir herramientas externas, como IgBLAST, y que las rutas y dependencias correspondientes estén configuradas correctamente.
 
