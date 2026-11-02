@@ -68,10 +68,12 @@ tesisbioinf-sofia/
 │   ├── 4-diversity_metrics_B_immunesim.ipynb
 │   ├── 5-matrix_diversity_A+downsampling.ipynb
 │   ├── 6-matrix_diversity_B_immunesim.ipynb
-│   ├── 7-expansion.ipynb
+│   ├── 7-expansion_clonal_space.ipynb
 │   ├── 7.1-clonal_tableA.ipynb
 │   ├── 7.2-clonal_plotA.ipynb
+│   ├── 7.3-top_5.ipynb
 │   ├── 8-shm_models_mutation_table.ipynb
+│   ├── 8.1-signatures_motif.ipynb
 │   ├── 9-shm_targeting.ipynb
 │   ├── 9.1-shm_targeting_models_plot.ipynb
 │   ├── 10-shm_baseline.ipynb
