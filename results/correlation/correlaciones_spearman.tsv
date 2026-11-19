@@ -1,0 +1,469 @@
+grupo	metrica_1	metrica_2	rho	p_BH
+General	Riqueza (S)	Chao1	0.982	3.03e-39
+General	Riqueza (S)	ACE	0.97	1.4e-29
+General	Chao1	ACE	0.993	8.5e-44
+General	Riqueza (S)	Shannon	0.886	9.53e-19
+General	Chao1	Shannon	0.855	2.73e-16
+General	ACE	Shannon	0.783	6.2e-11
+General	Riqueza (S)	Simpson	-0.424	0.00172
+General	Chao1	Simpson	-0.374	0.00657
+General	ACE	Simpson	-0.149	0.343
+General	Shannon	Simpson	-0.715	1.53e-9
+General	Riqueza (S)	D1	0.886	9.53e-19
+General	Chao1	D1	0.855	2.73e-16
+General	ACE	D1	0.783	6.2e-11
+General	Shannon	D1	1	0
+General	Simpson	D1	-0.715	1.53e-9
+General	Riqueza (S)	D2	0.424	0.00172
+General	Chao1	D2	0.374	0.00657
+General	ACE	D2	0.149	0.343
+General	Shannon	D2	0.715	1.53e-9
+General	Simpson	D2	-1	0
+General	D1	D2	0.715	1.53e-9
+General	Riqueza (S)	D3	0.184	0.204
+General	Chao1	D3	0.132	0.37
+General	ACE	D3	-0.12	0.441
+General	Shannon	D3	0.481	2.81e-4
+General	Simpson	D3	-0.937	3.54e-25
+General	D1	D3	0.481	2.81e-4
+General	D2	D3	0.937	3.54e-25
+General	Riqueza (S)	D4	0.055	0.718
+General	Chao1	D4	0.003	0.984
+General	ACE	D4	-0.253	0.0919
+General	Shannon	D4	0.344	0.0126
+General	Simpson	D4	-0.86	1.23e-16
+General	D1	D4	0.344	0.0126
+General	D2	D4	0.86	1.23e-16
+General	D3	D4	0.979	1.8799999999999998e-37
+General	Riqueza (S)	Pielou	-0.935	8.46e-25
+General	Chao1	Pielou	-0.902	2.64e-20
+General	ACE	Pielou	-0.893	2.1e-17
+General	Shannon	Pielou	-0.785	2.95e-12
+General	Simpson	Pielou	0.28	0.0451
+General	D1	Pielou	-0.785	2.95e-12
+General	D2	Pielou	-0.28	0.0451
+General	D3	Pielou	-0.022	0.882
+General	D4	Pielou	0.113	0.441
+General	Riqueza (S)	Basharin	0.874	1.16e-17
+General	Chao1	Basharin	0.842	2.39e-15
+General	ACE	Basharin	0.762	3.71e-10
+General	Shannon	Basharin	0.998	1.3199999999999998e-66
+General	Simpson	Basharin	-0.736	2.89e-10
+General	D1	Basharin	0.998	1.3199999999999998e-66
+General	D2	Basharin	0.736	2.89e-10
+General	D3	Basharin	0.507	1.15e-4
+General	D4	Basharin	0.371	0.00683
+General	Pielou	Basharin	-0.771	1.3e-11
+General	Riqueza (S)	Gini	0.952	3.52e-28
+General	Chao1	Gini	0.919	1.9300000000000001e-22
+General	ACE	Gini	0.909	7.7e-19
+General	Shannon	Gini	0.806	2.7e-13
+General	Simpson	Gini	-0.307	0.0277
+General	D1	Gini	0.806	2.7e-13
+General	D2	Gini	0.307	0.0277
+General	D3	Gini	0.051	0.733
+General	D4	Gini	-0.084	0.57
+General	Pielou	Gini	-0.997	6.29e-59
+General	Basharin	Gini	0.792	1.41e-12
+General	Riqueza (S)	D50	0.704	3.36e-9
+General	Chao1	D50	0.665	5.05e-8
+General	ACE	D50	0.554	5.51e-5
+General	Shannon	D50	0.947	5.380000000000001e-27
+General	Simpson	D50	-0.822	3.59e-14
+General	D1	D50	0.947	5.380000000000001e-27
+General	D2	D50	0.822	3.59e-14
+General	D3	D50	0.63	4.18e-7
+General	D4	D50	0.512	9.75e-5
+General	Pielou	D50	-0.596	2.52e-6
+General	Basharin	D50	0.955	8.62e-29
+General	Gini	D50	0.616	9.03e-7
+Escenario A	Riqueza (S)	Chao1	0.982	7.26e-7
+Escenario A	Riqueza (S)	ACE	0.988	7.26e-7
+Escenario A	Chao1	ACE	1	2.7699999999999998e-61
+Escenario A	Riqueza (S)	Shannon	0.809	0.0073
+Escenario A	Chao1	Shannon	0.855	0.00286
+Escenario A	ACE	Shannon	0.818	0.00827
+Escenario A	Riqueza (S)	Simpson	-0.209	0.667
+Escenario A	Chao1	Simpson	-0.236	0.651
+Escenario A	ACE	Simpson	-0.103	0.819
+Escenario A	Shannon	Simpson	-0.609	0.0792
+Escenario A	Riqueza (S)	D1	0.809	0.0073
+Escenario A	Chao1	D1	0.855	0.00286
+Escenario A	ACE	D1	0.818	0.00827
+Escenario A	Shannon	D1	1	0
+Escenario A	Simpson	D1	-0.609	0.0792
+Escenario A	Riqueza (S)	D2	0.209	0.667
+Escenario A	Chao1	D2	0.236	0.651
+Escenario A	ACE	D2	0.103	0.819
+Escenario A	Shannon	D2	0.609	0.0792
+Escenario A	Simpson	D2	-1	0
+Escenario A	D1	D2	0.609	0.0792
+Escenario A	Riqueza (S)	D3	0.036	0.94
+Escenario A	Chao1	D3	0.055	0.908
+Escenario A	ACE	D3	-0.139	0.759
+Escenario A	Shannon	D3	0.418	0.29
+Escenario A	Simpson	D3	-0.936	9.57e-5
+Escenario A	D1	D3	0.418	0.29
+Escenario A	D2	D3	0.936	9.57e-5
+Escenario A	Riqueza (S)	D4	-0.155	0.714
+Escenario A	Chao1	D4	-0.155	0.714
+Escenario A	ACE	D4	-0.406	0.34
+Escenario A	Shannon	D4	0.191	0.668
+Escenario A	Simpson	D4	-0.818	0.0065
+Escenario A	D1	D4	0.191	0.668
+Escenario A	D2	D4	0.818	0.0065
+Escenario A	D3	D4	0.955	2.59e-5
+Escenario A	Riqueza (S)	Pielou	-0.991	3.67e-8
+Escenario A	Chao1	Pielou	-0.964	1.03e-5
+Escenario A	ACE	Pielou	-0.976	8.81e-6
+Escenario A	Shannon	Pielou	-0.8	0.00758
+Escenario A	Simpson	Pielou	0.2	0.667
+Escenario A	D1	Pielou	-0.8	0.00758
+Escenario A	D2	Pielou	-0.2	0.667
+Escenario A	D3	Pielou	-0.018	0.958
+Escenario A	D4	Pielou	0.173	0.701
+Escenario A	Riqueza (S)	Basharin	0.8	0.00758
+Escenario A	Chao1	Basharin	0.836	0.00452
+Escenario A	ACE	Basharin	0.794	0.0122
+Escenario A	Shannon	Basharin	0.991	3.67e-8
+Escenario A	Simpson	Basharin	-0.627	0.0739
+Escenario A	D1	Basharin	0.991	3.67e-8
+Escenario A	D2	Basharin	0.627	0.0739
+Escenario A	D3	Basharin	0.436	0.269
+Escenario A	D4	Basharin	0.209	0.667
+Escenario A	Pielou	Basharin	-0.791	0.00827
+Escenario A	Riqueza (S)	Gini	0.998	1.16e-10
+Escenario A	Chao1	Gini	0.975	2.29e-6
+Escenario A	ACE	Gini	0.985	1.62e-6
+Escenario A	Shannon	Gini	0.806	0.0073
+Escenario A	Simpson	Gini	-0.205	0.667
+Escenario A	D1	Gini	0.806	0.0073
+Escenario A	D2	Gini	0.205	0.667
+Escenario A	D3	Gini	0.027	0.949
+Escenario A	D4	Gini	-0.164	0.712
+Escenario A	Pielou	Gini	-0.998	1.16e-10
+Escenario A	Basharin	Gini	0.797	0.00778
+Escenario A	Riqueza (S)	D50	0.564	0.115
+Escenario A	Chao1	D50	0.609	0.0792
+Escenario A	ACE	D50	0.503	0.212
+Escenario A	Shannon	D50	0.918	2.6e-4
+Escenario A	Simpson	D50	-0.773	0.0109
+Escenario A	D1	D50	0.918	2.6e-4
+Escenario A	D2	D50	0.773	0.0109
+Escenario A	D3	D50	0.591	0.0922
+Escenario A	D4	D50	0.4	0.316
+Escenario A	Pielou	D50	-0.555	0.12
+Escenario A	Basharin	D50	0.936	9.57e-5
+Escenario A	Gini	D50	0.56	0.116
+Escenario B	Riqueza (S)	Chao1	0.973	2.86e-6
+Escenario B	Riqueza (S)	ACE	0.879	0.00167
+Escenario B	Chao1	ACE	0.964	2.86e-5
+Escenario B	Riqueza (S)	Shannon	0.991	2.67e-8
+Escenario B	Chao1	Shannon	0.964	8.5e-6
+Escenario B	ACE	Shannon	0.867	0.00223
+Escenario B	Riqueza (S)	Simpson	-0.809	0.00399
+Escenario B	Chao1	Simpson	-0.782	0.00671
+Escenario B	ACE	Simpson	-0.588	0.08
+Escenario B	Shannon	Simpson	-0.827	0.00278
+Escenario B	Riqueza (S)	D1	0.991	2.67e-8
+Escenario B	Chao1	D1	0.964	8.5e-6
+Escenario B	ACE	D1	0.867	0.00223
+Escenario B	Shannon	D1	1	0
+Escenario B	Simpson	D1	-0.827	0.00278
+Escenario B	Riqueza (S)	D2	0.809	0.00399
+Escenario B	Chao1	D2	0.782	0.00671
+Escenario B	ACE	D2	0.588	0.08
+Escenario B	Shannon	D2	0.827	0.00278
+Escenario B	Simpson	D2	-1	0
+Escenario B	D1	D2	0.827	0.00278
+Escenario B	Riqueza (S)	D3	0.691	0.023
+Escenario B	Chao1	D3	0.655	0.0352
+Escenario B	ACE	D3	0.394	0.263
+Escenario B	Shannon	D3	0.709	0.0183
+Escenario B	Simpson	D3	-0.955	2.05e-5
+Escenario B	D1	D3	0.709	0.0183
+Escenario B	D2	D3	0.955	2.05e-5
+Escenario B	Riqueza (S)	D4	0.555	0.0819
+Escenario B	Chao1	D4	0.5	0.124
+Escenario B	ACE	D4	0.176	0.627
+Escenario B	Shannon	D4	0.573	0.073
+Escenario B	Simpson	D4	-0.873	9.58e-4
+Escenario B	D1	D4	0.573	0.073
+Escenario B	D2	D4	0.873	9.58e-4
+Escenario B	D3	D4	0.973	2.86e-6
+Escenario B	Riqueza (S)	Pielou	-0.909	2.94e-4
+Escenario B	Chao1	Pielou	-0.882	7.8e-4
+Escenario B	ACE	Pielou	-0.782	0.0105
+Escenario B	Shannon	Pielou	-0.9	4.03e-4
+Escenario B	Simpson	Pielou	0.718	0.0169
+Escenario B	D1	Pielou	-0.9	4.03e-4
+Escenario B	D2	Pielou	-0.718	0.0169
+Escenario B	D3	Pielou	-0.591	0.0647
+Escenario B	D4	Pielou	-0.436	0.184
+Escenario B	Riqueza (S)	Basharin	0.991	2.67e-8
+Escenario B	Chao1	Basharin	0.964	8.5e-6
+Escenario B	ACE	Basharin	0.867	0.00223
+Escenario B	Shannon	Basharin	1	0
+Escenario B	Simpson	Basharin	-0.827	0.00278
+Escenario B	D1	Basharin	1	0
+Escenario B	D2	Basharin	0.827	0.00278
+Escenario B	D3	Basharin	0.709	0.0183
+Escenario B	D4	Basharin	0.573	0.073
+Escenario B	Pielou	Basharin	-0.9	4.03e-4
+Escenario B	Riqueza (S)	Gini	0.945	3.96e-5
+Escenario B	Chao1	Gini	0.909	2.94e-4
+Escenario B	ACE	Gini	0.806	0.00716
+Escenario B	Shannon	Gini	0.936	6.89e-5
+Escenario B	Simpson	Gini	-0.755	0.0103
+Escenario B	D1	Gini	0.936	6.89e-5
+Escenario B	D2	Gini	0.755	0.0103
+Escenario B	D3	Gini	0.636	0.0423
+Escenario B	D4	Gini	0.491	0.13
+Escenario B	Pielou	Gini	-0.991	2.67e-8
+Escenario B	Basharin	Gini	0.936	6.89e-5
+Escenario B	Riqueza (S)	D50	0.973	2.86e-6
+Escenario B	Chao1	D50	0.945	3.96e-5
+Escenario B	ACE	D50	0.842	0.00361
+Escenario B	Shannon	D50	0.991	2.67e-8
+Escenario B	Simpson	D50	-0.873	9.58e-4
+Escenario B	D1	D50	0.991	2.67e-8
+Escenario B	D2	D50	0.873	9.58e-4
+Escenario B	D3	D50	0.745	0.0116
+Escenario B	D4	D50	0.609	0.0552
+Escenario B	Pielou	D50	-0.882	7.8e-4
+Escenario B	Basharin	D50	0.991	2.67e-8
+Escenario B	Gini	D50	0.918	2e-4
+Escenario C	Riqueza (S)	Chao1	1	0
+Escenario C	Riqueza (S)	ACE	1	7.539999999999999e-62
+Escenario C	Chao1	ACE	1	7.539999999999999e-62
+Escenario C	Riqueza (S)	Shannon	0.936	6.15e-5
+Escenario C	Chao1	Shannon	0.936	6.15e-5
+Escenario C	ACE	Shannon	0.915	5.32e-4
+Escenario C	Riqueza (S)	Simpson	-0.491	0.163
+Escenario C	Chao1	Simpson	-0.491	0.163
+Escenario C	ACE	Simpson	-0.321	0.432
+Escenario C	Shannon	Simpson	-0.618	0.0665
+Escenario C	Riqueza (S)	D1	0.936	6.15e-5
+Escenario C	Chao1	D1	0.936	6.15e-5
+Escenario C	ACE	D1	0.915	5.32e-4
+Escenario C	Shannon	D1	1	0
+Escenario C	Simpson	D1	-0.618	0.0665
+Escenario C	Riqueza (S)	D2	0.491	0.163
+Escenario C	Chao1	D2	0.491	0.163
+Escenario C	ACE	D2	0.321	0.432
+Escenario C	Shannon	D2	0.618	0.0665
+Escenario C	Simpson	D2	-1	0
+Escenario C	D1	D2	0.618	0.0665
+Escenario C	Riqueza (S)	D3	0.255	0.488
+Escenario C	Chao1	D3	0.255	0.488
+Escenario C	ACE	D3	0.006	0.987
+Escenario C	Shannon	D3	0.364	0.331
+Escenario C	Simpson	D3	-0.936	6.15e-5
+Escenario C	D1	D3	0.364	0.331
+Escenario C	D2	D3	0.936	6.15e-5
+Escenario C	Riqueza (S)	D4	0.145	0.687
+Escenario C	Chao1	D4	0.145	0.687
+Escenario C	ACE	D4	-0.139	0.71
+Escenario C	Shannon	D4	0.273	0.478
+Escenario C	Simpson	D4	-0.891	5.69e-4
+Escenario C	D1	D4	0.273	0.478
+Escenario C	D2	D4	0.891	5.69e-4
+Escenario C	D3	D4	0.982	4.37e-7
+Escenario C	Riqueza (S)	Pielou	-1	0
+Escenario C	Chao1	Pielou	-1	0
+Escenario C	ACE	Pielou	-1	1.11e-60
+Escenario C	Shannon	Pielou	-0.936	6.15e-5
+Escenario C	Simpson	Pielou	0.491	0.163
+Escenario C	D1	Pielou	-0.936	6.15e-5
+Escenario C	D2	Pielou	-0.491	0.163
+Escenario C	D3	Pielou	-0.255	0.488
+Escenario C	D4	Pielou	-0.145	0.687
+Escenario C	Riqueza (S)	Basharin	0.882	7.15e-4
+Escenario C	Chao1	Basharin	0.882	7.15e-4
+Escenario C	ACE	Basharin	0.842	0.00468
+Escenario C	Shannon	Basharin	0.982	4.37e-7
+Escenario C	Simpson	Basharin	-0.727	0.0194
+Escenario C	D1	Basharin	0.982	4.37e-7
+Escenario C	D2	Basharin	0.727	0.0194
+Escenario C	D3	Basharin	0.482	0.171
+Escenario C	D4	Basharin	0.391	0.295
+Escenario C	Pielou	Basharin	-0.882	7.15e-4
+Escenario C	Riqueza (S)	Gini	1	0
+Escenario C	Chao1	Gini	1	0
+Escenario C	ACE	Gini	1	7.539999999999999e-62
+Escenario C	Shannon	Gini	0.936	6.15e-5
+Escenario C	Simpson	Gini	-0.491	0.163
+Escenario C	D1	Gini	0.936	6.15e-5
+Escenario C	D2	Gini	0.491	0.163
+Escenario C	D3	Gini	0.255	0.488
+Escenario C	D4	Gini	0.145	0.687
+Escenario C	Pielou	Gini	-1	0
+Escenario C	Basharin	Gini	0.882	7.15e-4
+Escenario C	Riqueza (S)	D50	0.782	0.00811
+Escenario C	Chao1	D50	0.782	0.00811
+Escenario C	ACE	D50	0.709	0.0367
+Escenario C	Shannon	D50	0.936	6.15e-5
+Escenario C	Simpson	D50	-0.8	0.00622
+Escenario C	D1	D50	0.936	6.15e-5
+Escenario C	D2	D50	0.8	0.00622
+Escenario C	D3	D50	0.591	0.085
+Escenario C	D4	D50	0.527	0.143
+Escenario C	Pielou	D50	-0.782	0.00811
+Escenario C	Basharin	D50	0.973	2.51e-6
+Escenario C	Gini	D50	0.782	0.00811
+Escenario D	Riqueza (S)	Chao1	1	0
+Escenario D	Riqueza (S)	ACE	0.988	7.26e-7
+Escenario D	Chao1	ACE	0.988	7.26e-7
+Escenario D	Riqueza (S)	Shannon	0.882	0.00107
+Escenario D	Chao1	Shannon	0.882	0.00107
+Escenario D	ACE	Shannon	0.83	0.00655
+Escenario D	Riqueza (S)	Simpson	-0.282	0.549
+Escenario D	Chao1	Simpson	-0.282	0.549
+Escenario D	ACE	Simpson	-0.03	0.937
+Escenario D	Shannon	Simpson	-0.555	0.12
+Escenario D	Riqueza (S)	D1	0.882	0.00107
+Escenario D	Chao1	D1	0.882	0.00107
+Escenario D	ACE	D1	0.83	0.00655
+Escenario D	Shannon	D1	1	0
+Escenario D	Simpson	D1	-0.555	0.12
+Escenario D	Riqueza (S)	D2	0.282	0.549
+Escenario D	Chao1	D2	0.282	0.549
+Escenario D	ACE	D2	0.03	0.937
+Escenario D	Shannon	D2	0.555	0.12
+Escenario D	Simpson	D2	-1	0
+Escenario D	D1	D2	0.555	0.12
+Escenario D	Riqueza (S)	D3	-0.136	0.768
+Escenario D	Chao1	D3	-0.136	0.768
+Escenario D	ACE	D3	-0.418	0.344
+Escenario D	Shannon	D3	0.1	0.823
+Escenario D	Simpson	D3	-0.855	0.00197
+Escenario D	D1	D3	0.1	0.823
+Escenario D	D2	D3	0.855	0.00197
+Escenario D	Riqueza (S)	D4	-0.236	0.599
+Escenario D	Chao1	D4	-0.236	0.599
+Escenario D	ACE	D4	-0.539	0.165
+Escenario D	Shannon	D4	-0.027	0.937
+Escenario D	Simpson	D4	-0.755	0.0142
+Escenario D	D1	D4	-0.027	0.937
+Escenario D	D2	D4	0.755	0.0142
+Escenario D	D3	D4	0.973	2.51e-6
+Escenario D	Riqueza (S)	Pielou	-0.973	2.51e-6
+Escenario D	Chao1	Pielou	-0.973	2.51e-6
+Escenario D	ACE	Pielou	-0.927	4.85e-4
+Escenario D	Shannon	Pielou	-0.855	0.00197
+Escenario D	Simpson	Pielou	0.227	0.602
+Escenario D	D1	Pielou	-0.855	0.00197
+Escenario D	D2	Pielou	-0.227	0.602
+Escenario D	D3	Pielou	0.191	0.678
+Escenario D	D4	Pielou	0.309	0.522
+Escenario D	Riqueza (S)	Basharin	0.882	0.00107
+Escenario D	Chao1	Basharin	0.882	0.00107
+Escenario D	ACE	Basharin	0.83	0.00655
+Escenario D	Shannon	Basharin	1	0
+Escenario D	Simpson	Basharin	-0.555	0.12
+Escenario D	D1	Basharin	1	0
+Escenario D	D2	Basharin	0.555	0.12
+Escenario D	D3	Basharin	0.1	0.823
+Escenario D	D4	Basharin	-0.027	0.937
+Escenario D	Pielou	Basharin	-0.855	0.00197
+Escenario D	Riqueza (S)	Gini	0.991	3.67e-8
+Escenario D	Chao1	Gini	0.991	3.67e-8
+Escenario D	ACE	Gini	0.964	3.36e-5
+Escenario D	Shannon	Gini	0.873	0.00131
+Escenario D	Simpson	Gini	-0.264	0.554
+Escenario D	D1	Gini	0.873	0.00131
+Escenario D	D2	Gini	0.264	0.554
+Escenario D	D3	Gini	-0.155	0.757
+Escenario D	D4	Gini	-0.264	0.554
+Escenario D	Pielou	Gini	-0.991	3.67e-8
+Escenario D	Basharin	Gini	0.873	0.00131
+Escenario D	Riqueza (S)	D50	0.782	0.00943
+Escenario D	Chao1	D50	0.782	0.00943
+Escenario D	ACE	D50	0.697	0.0445
+Escenario D	Shannon	D50	0.973	2.51e-6
+Escenario D	Simpson	D50	-0.682	0.0378
+Escenario D	D1	D50	0.973	2.51e-6
+Escenario D	D2	D50	0.682	0.0378
+Escenario D	D3	D50	0.273	0.554
+Escenario D	D4	D50	0.145	0.768
+Escenario D	Pielou	D50	-0.745	0.0161
+Escenario D	Basharin	D50	0.973	2.51e-6
+Escenario D	Gini	D50	0.773	0.0109
+Escenario E	Riqueza (S)	Chao1	0.945	6.71e-5
+Escenario E	Riqueza (S)	ACE	1	0
+Escenario E	Chao1	ACE	1	0
+Escenario E	Riqueza (S)	Shannon	0.745	0.0238
+Escenario E	Chao1	Shannon	0.682	0.0452
+Escenario E	ACE	Shannon	0.533	0.222
+Escenario E	Riqueza (S)	Simpson	-0.091	0.889
+Escenario E	Chao1	Simpson	0.027	0.949
+Escenario E	ACE	Simpson	0.517	0.236
+Escenario E	Shannon	Simpson	-0.545	0.143
+Escenario E	Riqueza (S)	D1	0.745	0.0238
+Escenario E	Chao1	D1	0.682	0.0452
+Escenario E	ACE	D1	0.533	0.222
+Escenario E	Shannon	D1	1	0
+Escenario E	Simpson	D1	-0.545	0.143
+Escenario E	Riqueza (S)	D2	0.091	0.889
+Escenario E	Chao1	D2	-0.027	0.949
+Escenario E	ACE	D2	-0.517	0.236
+Escenario E	Shannon	D2	0.545	0.143
+Escenario E	Simpson	D2	-1	0
+Escenario E	D1	D2	0.545	0.143
+Escenario E	Riqueza (S)	D3	-0.255	0.557
+Escenario E	Chao1	D3	-0.355	0.397
+Escenario E	ACE	D3	-0.733	0.0518
+Escenario E	Shannon	D3	0.191	0.678
+Escenario E	Simpson	D3	-0.9	7.34e-4
+Escenario E	D1	D3	0.191	0.678
+Escenario E	D2	D3	0.9	7.34e-4
+Escenario E	Riqueza (S)	D4	-0.382	0.35
+Escenario E	Chao1	D4	-0.5	0.195
+Escenario E	ACE	D4	-0.817	0.0225
+Escenario E	Shannon	D4	0.055	0.908
+Escenario E	Simpson	D4	-0.809	0.00832
+Escenario E	D1	D4	0.055	0.908
+Escenario E	D2	D4	0.809	0.00832
+Escenario E	D3	D4	0.964	1.2e-5
+Escenario E	Riqueza (S)	Pielou	-0.991	3.26e-8
+Escenario E	Chao1	Pielou	-0.909	5.49e-4
+Escenario E	ACE	Pielou	-1	0
+Escenario E	Shannon	Pielou	-0.736	0.0246
+Escenario E	Simpson	Pielou	0.073	0.889
+Escenario E	D1	Pielou	-0.736	0.0246
+Escenario E	D2	Pielou	-0.073	0.889
+Escenario E	D3	Pielou	0.282	0.53
+Escenario E	D4	Pielou	0.4	0.334
+Escenario E	Riqueza (S)	Basharin	0.691	0.0452
+Escenario E	Chao1	Basharin	0.627	0.0757
+Escenario E	ACE	Basharin	0.433	0.35
+Escenario E	Shannon	Basharin	0.982	5.96e-7
+Escenario E	Simpson	Basharin	-0.655	0.0577
+Escenario E	D1	Basharin	0.982	5.96e-7
+Escenario E	D2	Basharin	0.655	0.0577
+Escenario E	D3	Basharin	0.3	0.506
+Escenario E	D4	Basharin	0.155	0.757
+Escenario E	Pielou	Basharin	-0.682	0.0452
+Escenario E	Riqueza (S)	Gini	0.998	7.27e-11
+Escenario E	Chao1	Gini	0.929	1.94e-4
+Escenario E	ACE	Gini	1	0
+Escenario E	Shannon	Gini	0.743	0.0238
+Escenario E	Simpson	Gini	-0.082	0.889
+Escenario E	D1	Gini	0.743	0.0238
+Escenario E	D2	Gini	0.082	0.889
+Escenario E	D3	Gini	-0.269	0.534
+Escenario E	D4	Gini	-0.392	0.343
+Escenario E	Pielou	Gini	-0.998	7.27e-11
+Escenario E	Basharin	Gini	0.688	0.0452
+Escenario E	Riqueza (S)	D50	0.282	0.53
+Escenario E	Chao1	D50	0.209	0.655
+Escenario E	ACE	D50	0	1
+Escenario E	Shannon	D50	0.836	0.0052
+Escenario E	Simpson	D50	-0.809	0.00832
+Escenario E	D1	D50	0.836	0.0052
+Escenario E	D2	D50	0.809	0.00832
+Escenario E	D3	D50	0.582	0.115
+Escenario E	D4	D50	0.5	0.195
+Escenario E	Pielou	D50	-0.273	0.533
+Escenario E	Basharin	D50	0.873	0.00197
+Escenario E	Gini	D50	0.278	0.53
